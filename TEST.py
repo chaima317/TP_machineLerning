@@ -28,3 +28,4 @@ pyplot.ylim(0,1)
 pyplot.title('choix de k en fonction du taux derreur')
 pyplot.show()
 
+print("the oprimal value of k is ==>",np.argmin(err))
